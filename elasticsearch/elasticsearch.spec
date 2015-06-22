@@ -74,7 +74,8 @@ fi
 
 %post
 /sbin/chkconfig --add %{name}
-#%{ES_home}/bin/plugin --install lmenezes/elasticsearch-kopf/master >/dev/null
+ln -s %{ES_home}/bin/elasticsearch /usr/bin/elasticsearch
+
 
 %preun
 
