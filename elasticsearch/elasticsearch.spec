@@ -3,7 +3,7 @@
 
 Name:		elasticsearch	
 Version:	1.4.2
-Release:	1.ag%{?dist}
+Release:	2.ag%{?dist}
 Summary:        Open source, flexible, distributed search and analytics engine
 License:        ASL 2.0
 URL:            http://www.elasticsearch.org/
@@ -120,8 +120,8 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-#* Sat Jun 20 2015 antoine.wallon@univ-lille1.fr 1.4-2
-#- Add Kopf plugin
+* Mon Jun 22 2015 antoine.wallon@univ-lille1.fr 1.4-2
+- Add symbolic link
 
 * Thu Jun 18 2015 antoine.wallon@univ-lille1.fr 1.4-2
 - Initial version
